@@ -41,7 +41,7 @@
   * `string.Compare(fooString, "x", StringComparison.CurrentCultureIgnoreCase);`
   * `string fooFs = string.Format("Check Check, {0} {1}, {0} {1:0.0}", 1, 2);`
 * DateTime:
-  * ```cs
+  * ```csharp
   DateTime fooDate = DateTime.Now;
   Console.WriteLine(fooDate.ToString("hh:mm, dd MMM yyyy"));
   ```
